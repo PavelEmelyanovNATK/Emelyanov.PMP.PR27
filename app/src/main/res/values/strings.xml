@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Emelyanov.PMP.PR27</string>
+    <string name="draweOpen">Open drawer</string>
+    <string name="drawerClose">Close drawer</string>
+</resources>

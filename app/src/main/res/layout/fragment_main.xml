@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_map"
+        android:scaleType="centerCrop"/>
+
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="48dp"
+            android:id="@+id/car1"
+
+            android:layout_marginStart="265dp"
+            android:layout_marginTop="141dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="542dp"
+            android:src="@drawable/car" />
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="48dp"
+            android:id="@+id/car2"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="568dp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="115dp"
+            android:src="@drawable/car" />
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="48dp"
+            android:id="@+id/car3"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="234dp"
+            android:layout_marginBottom="618dp"
+            android:src="@drawable/car" />
+
+</FrameLayout>
