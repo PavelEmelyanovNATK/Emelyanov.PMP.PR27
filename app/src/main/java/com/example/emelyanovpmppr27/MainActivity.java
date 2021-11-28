@@ -26,6 +26,7 @@ import com.example.emelyanovpmppr27.Fragments.HistoryFragment;
 import com.example.emelyanovpmppr27.Fragments.MainFragment;
 import com.example.emelyanovpmppr27.Fragments.SettingsFragment;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     ViewTreeObserver ViewTreeObserver;
 
     int currentFragment;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
